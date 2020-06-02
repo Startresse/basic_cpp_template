@@ -1,3 +1,7 @@
+# project
+.vscode/
+
+# build
 *.out
 *.o
 

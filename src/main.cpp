@@ -1,5 +1,8 @@
 #include <iostream>
 
+#include "test.h"
+
 int main(void) {
-    std::cout << "Hello world!" << std::endl;
+    Test t(100);
+    std::cout << t.get_value() << std::endl;
 }
